@@ -21,9 +21,9 @@ describe('BASE 3X Workbench UI/UX testing POC', function() {
   
   it('2. Login To Base', function(){
 		//Input user name
-	    username.sendKeys("rm@wipro.com");
+	    username.sendKeys("username");
 	    //Input Password
-	    password.sendKeys("raunak27");
+	    password.sendKeys("password");
 	    //Click Login Button
 	    loginButton.click();
 	    //Assertion
